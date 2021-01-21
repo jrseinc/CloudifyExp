@@ -7,6 +7,8 @@
 }
 /* font-family: 'Open Sans', sans-serif; */
 
+/*HERO SECTION*/
+
 .hero {
 	height: 700px;
 	background-image: url('./images/download.jpg');
@@ -31,12 +33,24 @@
 	margin-bottom: 1em;
 }
 
+/*BOOKING SECTION*/
+
+.booking-section-container {
+	padding-top: 3em;
+	background-color: #eeeeee;
+}
+
+.booking-section-container-header {
+	text-underline-offset: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
 .booking-section {
 	display: flex;
 	justify-content: center;
 	padding: 5em 2em;
-	border: 2px solid black;
-	background-color: #eeeeee;
 }
 
 .card {
@@ -48,4 +62,10 @@
 
 .card:hover {
 	box-shadow: 30px 30px 10px rgb(219, 219, 219);
+}
+
+/*Contact Section*/
+
+.contact-section-container {
+	padding: 5em 0;
 }
